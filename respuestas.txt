@@ -1,3 +1,4 @@
 1. cat datos.txt | grep -i "juan"
 2. cat datos.txt | grep -i "juan" | cut -d "," -f 4
 3. cat datos.txt | grep -ci "prog"
+4. cat datos.txt | grep -v '-' | grep -ci "prog"
