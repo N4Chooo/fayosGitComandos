@@ -1,0 +1,2 @@
+1. cat datos.txt | grep -i "juan"
+2. 
