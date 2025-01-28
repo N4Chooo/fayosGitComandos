@@ -1,2 +1,2 @@
 1. cat datos.txt | grep -i "juan"
-2. 
+2. cat datos.txt | grep -i "juan" | cut -d "," -f 4
