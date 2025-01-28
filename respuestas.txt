@@ -5,3 +5,4 @@
 5. cat datos.txt | grep -w "es" |cut -d "," -f 2 | cut -d " " -f 1
 6. cat datos.txt | grep ".com" | sed 's/.com/.net/g'
 7. cat datos.txt | grep -c "-"
+8. cat datos.txt | awk -F "," '$3>40' | cut -d "," -f 2,3
