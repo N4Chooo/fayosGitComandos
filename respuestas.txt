@@ -3,3 +3,4 @@
 3. cat datos.txt | grep -ci "prog"
 4. cat datos.txt | grep -v '-' | grep -ci "prog"
 5. cat datos.txt | grep -w "es" |cut -d "," -f 2 | cut -d " " -f 1
+6. cat datos.txt | grep ".com" | sed 's/.com/.net/g'
